@@ -1,0 +1,38 @@
+<!-- object property  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> object property  </title>
+</head>
+<body>
+  <script>
+    var a = {
+      firstname:"faiyaz",
+      lastname:"ansari",
+      rollnumber:34344,
+      age:23,
+      country:"india",
+      movies:["kgf2","rohani","doney","marushti"],
+      sallary:function(){
+        return 344422;
+      },
+      
+      living:{
+'city':'chandigarh',
+'country':"india"
+      },
+      namestudent(){
+        return this.firstname + "  " + this.lastname;
+      }
+    };
+    // document.write(a)
+// console.log(a.movies);
+console.log(a.sallary())
+console.log(a.namestudent());
+console.log(a.living.city);
+  </script>
+</body>
+</html>

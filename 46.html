@@ -1,0 +1,57 @@
+<!-- String methods 
+ 1- length(property)   2- tolowercase()   3- touppercase()
+ 4-includes()   5- startswith()   6- endswith()
+ 7-search()     8-match()         9- indexof()
+ 10-lastindexof()  11- replace()  12-trim()
+ 13-chartat()      14- chartcodeat()  15-fromcharcode()
+ 16-concat()       17-split()         18-repeat()
+ 19-slice()        20-substr()        21- substring()
+ 22-tostring()     23-valueof()
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>string lenth property use </title>
+ </head>
+ <body>
+  <script>
+    var a = "my dear friend is so my nice and talented is am i so ";
+    // var w = a.length;
+    // var u = a.toLowerCase();
+   
+    var n = a.toUpperCase();
+
+    // document.write(w +"<br>");
+    // document.write(u+"<br>");
+
+    // document.write(n + "<br>");
+    // var c = a.includes("faiyaz");
+    // document.write(c);
+
+// var n = a.startsWith("faiyaz");
+// var n = a.endsWith("sir");
+// var n = a.search("a");      // search methods is a index value find
+// document.write(n) 
+
+var r = a.match(/is/g);
+
+document.write(r);
+document.write("<br>");
+
+var n = a.indexOf("is");
+document.write(n);
+document.write("<br>");
+
+var m = a.lastIndexOf("is");
+document.write(m+"<br>");
+
+var c = a.replace(/my/g,"java script");
+document.write(c);
+  </script>
+  
+ </body>
+ </html>
